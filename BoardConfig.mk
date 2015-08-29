@@ -64,11 +64,14 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_USES_UNCOMPRESSED_KERNEL := true
-TARGET_KERNEL_CONFIG := cyanogenmod_lettuce-64_defconfig
+TARGET_KERNEL_CONFIG := xenon_lettuce-64_defconfig
 else
-TARGET_KERNEL_CONFIG := cyanogenmod_lettuce_defconfig
+TARGET_KERNEL_CONFIG := xenon_defconfig
 endif
 TARGET_KERNEL_SOURCE := kernel/yu/msm8916
+
+# Keepin it block based for the sake of SuperSu
+BLOCK_BASED_OTA=true
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
