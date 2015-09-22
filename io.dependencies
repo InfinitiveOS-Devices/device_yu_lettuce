@@ -1,0 +1,26 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "InfinitiveOS-Devices/android_kernel_cyanogen_msm8916",
+    "target_path": "kernel/cyanogen/msm8916",
+    "revision":    "io-1.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "InfinitiveOS-Devices/android_device_cyanogen_msm8939-common",
+    "target_path": "device/cyanogen/msm8939-common",
+    "revision":    "io-1.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "InfinitiveOS-Devices/proprietary_vendor_yu",
+    "target_path": "vendor/yu",
+    "revision":    "io-1.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "InfinitiveOS-Devices/android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm",
+    "revision":    "io-1.0"
+  }
+]
