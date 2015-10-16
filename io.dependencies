@@ -7,7 +7,7 @@
   },
   {
     "remote":      "github",
-    "repository":  "InfinitiveOS-Devices/android_device_cyanogen_msm8939-common",
+    "repository":  "InfinitiveOS-Devices/android_device_cyanogen_msm8916-common",
     "target_path": "device/cyanogen/msm8939-common",
     "revision":    "io-1.0"
   },
